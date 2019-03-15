@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Task Manager</title>
+	<link rel="stylesheet" type="text/css" href="TaskManager.css">
+	<link href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header>
+			<h1>TASK MANAGER</h1>
+			
+		<form id="search-task">
+			<input type="text" placeholder="search task.." style="background-color:#4682B4; text-align: center; font-size: 16px; border:2px solid #191970; border-height: 25px;" >
+		</form>
+		 </header>
+
+			<hr>
+
+			<div>
+			<table><td><button class="button">
+			<div id="bar1"></div>
+			<div id="bar2"></div>
+			<div id="bar3"></div>
+		</button></td>
+
+			<td><p id="welcome"> <strong>YOU ARE MOST WELCOME.....&#x2714; &#x2714; &#x2714;</strong></p></td></table>
+			</div>
+			
+
+		<div class="leftside">
+			<div class="search-note">
+				<form class="add-items">
+			<table>
+		
+	 <tr>
+			<td><input type="text" id="para"></td><br>
+			<td><button id="edit">Edit</button></td>
+			<td><button id="checkbox">&#x2714;</button></td>
+		</tr>
+
+		<tr>
+			<td><input type="text"  id="para"></td><br>
+			<td><button id="edit">Edit</button></td>
+			<td><button id="checkbox">&#x2714;</button></td>
+		</tr>
+
+		<tr>
+			<td><input type="text" id="para"></td><br>
+			<td><button id="edit">Edit</button></td>
+			<td><button id="checkbox">&#x2714;</button></td>
+		</tr>
+
+		</table>
+			<button id="AddTask" type="submit">Add Task</button></td>
+		</div></form>
+	</div>
+
+		<ul id="task-items"></ul>
+			 <div class="rightside">
+			 	<input type="button" id="complete" value="COMPLETE"><br>
+			 	<div id="list-items"></div>
+
+</div>
+</div>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+			integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+			crossorigin="anonymous"></script>
+			
+			
+			<script src="TaskManager.js"></script>
+</body>
+</html>
+
+
+	
